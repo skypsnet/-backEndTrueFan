@@ -1,0 +1,73 @@
+/* Sección de estilos del footer */
+#footer {
+    background-color: #D9D9D9;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.footerstyle, .modal-title{
+    font-family: "Source Sans Pro";
+}
+
+.modal-title{
+    font-size: xx-large;
+}
+
+#btnCerrar{
+    background-color: blueviolet;
+}
+
+.product:hover .product-img{
+    
+    cursor: pointer;
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.5);
+
+}
+
+.product{
+    position: relative;
+    font-family: "Source Sans Pro";
+}
+
+.product-container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.product-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+
+  .btn-primary{
+    color: aqua;
+  }
+
+  #BtnAdd{
+    background-color: #9469A2;
+    border-color: #9469A2;
+    color: #eee;
+    margin: auto; /* Centra el botón */
+    display: block; /* Necesario para que el margen funcione */
+  }
+
+  #card-aling{
+    justify-content: center;
+    text-align: center; /* Centra horizontalmente el texto (incluido el botón) */   
+  }

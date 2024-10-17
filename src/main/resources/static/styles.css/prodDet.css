@@ -1,0 +1,36 @@
+.row {
+	justify-content: center;
+}
+
+#footer {
+    background-color: #D9D9D9;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+#imagen {
+	width: 400px;
+	height: 100%;
+}
+
+#detalles {
+	width: 400px;
+}
+
+#btnValidar{
+	background-color: #9469A2;
+    border-color: #9469A2;
+    color: #eee;
+}
+
+.btn-check{
+    background-color: transparent;
+    border-color: #000; 
+    color: #000; 
+}
+
+.btn-check:checked {
+    background-color: #9469A2;
+    border-color: #9469A2; 
+    color: #eee; 
+}
